@@ -1,7 +1,7 @@
 {
-    "app_id": "application-0-qdkaf",
+    "app_id": "chrysalis-spectrum-0-andak",
     "config_version": 20210101,
-    "name": "Application-0",
-    "location": "US-VA",
-    "deployment_model": "GLOBAL"
+    "name": "Chrysalis-Spectrum-0",
+    "location": "US-OR",
+    "deployment_model": "LOCAL"
 }
