@@ -1,0 +1,50 @@
+{
+    "collection": "Clients",
+    "database": "ChrysalisSpectrum",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "UserId": "%%user.id"
+            },
+            "fields": {
+                "ClientID": {},
+                "Country": {},
+                "First Name": {},
+                "Last Name": {},
+                "State": {},
+                "Street Address1": {},
+                "Street Address2": {},
+                "Town": {},
+                "zipcode": {}
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        },
+        {
+            "name": "non-owner",
+            "apply_when": {},
+            "fields": {
+                "ClientID": {},
+                "Country": {},
+                "First Name": {},
+                "Last Name": {},
+                "State": {},
+                "Street Address1": {},
+                "Street Address2": {},
+                "Town": {},
+                "zipcode": {}
+            },
+            "read": true,
+            "write": false,
+            "insert": false,
+            "delete": false,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}
